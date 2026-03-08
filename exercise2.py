@@ -1,0 +1,11 @@
+'''
+7 kyu
+Task 
+Write a function that returns both 
+the minimum and maximum number of the given list/array
+'''
+
+def min_max(lst):
+    return [min(lst),max(lst)]
+
+print(min_max([11235234,23,6]))
