@@ -9,3 +9,7 @@ The string has the following conditions to be alphanumeric:
 - No whitespaces / underscore
 '''
 
+def alphanumeric(password: str) -> bool:
+    return password.isalnum()
+
+print(alphanumeric("     "))
